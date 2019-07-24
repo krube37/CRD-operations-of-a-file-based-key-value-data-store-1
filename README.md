@@ -18,3 +18,8 @@ the key will no longer be available for Read or Delete operations.
 7. Appropriate error responses must always be returned to a client if it uses the data store in 
 unexpected ways or breaches any limits
 8. The file size never exceeds 1GB
+
+
+
+Go through the accessing.py file that is attached here with in order to understand clearly how 
+the code works and how to perform operations in this. 
