@@ -1,7 +1,7 @@
 #here is an example to demonstrate how to access and perform operations on a main file
 
 
-#open a new python file 
+#run the MODULE of MAIN FILE and import mainfile as a library 
 
 import code as x 
 #importing the main file("code" is the name of the file I have used) as a library 
