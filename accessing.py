@@ -37,6 +37,14 @@ x.modify("sastra",55)
 x.delete("sastra")
 #it deletes the respective key and its value from the database(memory is also freed)
 
+#we can access these using multiple threads like
+t1=Thread(target=(create or read or delete),args=(key_name,value,timeout)) #as per the operation
+t1.start()
+t1.sleep()
+t2=Thread(target=(create or read or delete),args=(key_name,value,timeout)) #as per the operation
+t2.start()
+t2.sleep()
+#and so on upto tn
 
 #the code also returns other errors like 
 #"invalidkey" if key_length is greater than 32 or key_name contains any numeric,special characters etc.,
