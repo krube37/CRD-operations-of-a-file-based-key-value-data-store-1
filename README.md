@@ -18,7 +18,7 @@ the key will no longer be available for Read or Delete operations.
 7. Appropriate error responses must always be returned to a client if it uses the data store in 
 unexpected ways or breaches any limits
 8. The file size never exceeds 1GB
-
+9. The file is accessed by multi-threading
 
 
 Go through the accessing.py file and examples.pdf file that are attached here with in order to understand clearly how 
