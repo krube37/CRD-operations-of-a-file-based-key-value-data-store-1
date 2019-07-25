@@ -21,5 +21,5 @@ unexpected ways or breaches any limits
 
 
 
-Go through the accessing.py file that is attached here with in order to understand clearly how 
+Go through the accessing.py file and examples.pdf file that are attached here with in order to understand clearly how 
 the code works and how to perform operations in this. 
